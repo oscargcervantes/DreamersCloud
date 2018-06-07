@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>DreamersCloud</title>
-
     <!-- Bootstrap -->
     <link href="../static/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -79,12 +78,20 @@
               </div>
               <div>
                 <input type="email" class="form-control" placeholder="Email" name="email" id="email" required="" />
-              </div>
+              </div>  
               <div>
                 <input type="password" class="form-control" placeholder="Password" name="password" id="password" required="" />
-              </div>
+              </div>  
               <div>
                 <input type="password" class="form-control" placeholder="Repeat Password" name="re-password" id="re-password" required="" />
+              </div>
+              <div>    
+                <input type="checkbox" name="2fa" id="2fa" value="Enabled"> Enable 2FA <br>
+              </div>
+              <label>Please select a picture to show on your profile</label>    
+              <div>
+                <input type="file" name="profile_photo" id="profile_photo" />
+                  <label></label>
               </div>
               <div>
                 <button type="submit" class="btn btn-default">Submit</button>

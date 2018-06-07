@@ -7,7 +7,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/media/oscargcervantes/Respaldo/Desktop/Hosting_notes/Flask/DreamersCloud/env"
+setenv VIRTUAL_ENV "/run/media/oscargcervantes/Respaldo/Desktop/Hosting_notes/Flask/DreamersCloud/env"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
